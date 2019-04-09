@@ -5,10 +5,13 @@
   height: 100vh;
 }
 
+.container {
+}
+
 h1 {
   margin: 0;
   padding-top: 200px;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 h2 {
@@ -20,7 +23,6 @@ h2 {
   font-family: nimbus-sans, sans-serif;
 }
 .letters span {
-  font-size: 60px;
   display: table-cell;
   padding: 5px;
   line-height: 100px;

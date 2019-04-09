@@ -14,14 +14,8 @@ export default class Clock extends React.Component {
   }
 
   ChangeColor() {
-    let newColor =
-      "rgb(" +
-      Math.floor(Math.random() * 256) +
-      "," +
-      Math.floor(Math.random() * 256) +
-      "," +
-      Math.floor(Math.random() * 256) +
-      ")";
+    let newColor = `rgb( ${Math.floor(Math.random() * 256)}, 
+      ${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)}`;
     return newColor;
   }
 
@@ -34,10 +28,10 @@ export default class Clock extends React.Component {
 
   render() {
     return (
-      <div style={{ color: this.state.color }}>
+      <div className="container" style={{ color: this.state.color }}>
         <h1>
           <span class="letters">
-            <span>H</span>
+            <span>J</span>
             <span>e</span>
             <span>l</span>
             <span>l</span>
